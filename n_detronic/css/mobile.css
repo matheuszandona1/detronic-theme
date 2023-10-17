@@ -1,0 +1,1115 @@
+@media only screen and (max-width: 768px) {
+
+    .sucesso-div {
+        width: 100%;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .sucesso-div-1,
+    .sucesso-div-2 {
+        width: 100%;
+    }
+
+    .pro-2-imgs-new {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pro-2-imgs-1 {
+        flex-direction: column;
+    }
+
+    .sucesso-div-2 {
+        padding: 0.5rem;
+        display: flex;
+        text-align: start;
+        font-family: 'Work Sans', regular;
+        color: #3464a9;
+        font-size: 12px;
+        border: 1px solid #5085d2;
+        flex-direction: row;
+        justify-content: space-between
+    }
+
+    .historia-txt br {
+        display: none;
+    }
+
+    .historia-txt {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+	
+
+
+    .title-style {
+        text-align: start;
+    }
+
+    .sol-mtitle {
+        font-size: 20px;
+    }
+
+    .card-body {
+        align-items: center;
+    }
+
+    .pull-right {
+        float: initial !important;
+    }
+
+    .size-banner {
+        height: 100%;
+    }
+
+    .wp-block-image img {
+        height: 100%;
+    }
+
+    .flex-container {
+        width: 90% !important;
+    }
+
+
+    .form-econ iframe {
+        width: 80% !important;
+        height: 1050px !important;
+    }
+
+    .invest br {
+        display: none;
+    }
+
+    .invest span {
+        padding-top: 10px;
+    }
+
+    .parceiros span {
+        padding-top: 10px;
+    }
+
+    .parceiros br {
+        display: none;
+    }
+
+    .energia-txt br {
+        display: none;
+    }
+
+    .hover {
+        flex-direction: column;
+    }
+
+    .d10 {
+        font-size: 30px;
+        line-height: 0;
+    }
+
+    .d11 {
+        font-size: 30px;
+        line-height: 1;
+    }
+
+    .carousel-control-prev {
+        left: 25px;
+    }
+
+
+    .carousel-item {
+        padding-left: 0px !important;
+        width: 286px !important;
+    }
+
+
+    .btn-calc4 {
+        font-size: 14px !important;
+    }
+
+    #gallery {
+        text-align: center;
+    }
+
+    .footer-top {
+        padding: 0px;
+    }
+
+    .end-cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reflex-dia {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 700;
+        font-size: 25px !important;
+    }
+
+    .reflexao {
+        padding-left: 0px;
+    }
+
+    .sol-line {
+        border-bottom: none;
+        text-decoration: underline;
+        text-decoration-color: #55BC7B;
+        text-decoration-thickness: 7px;
+    }
+
+    #logo-detronic {
+        display: flex !important;
+    }
+
+    #logo-nav {
+        display: none;
+    }
+
+    .container-fluid {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .contact {
+        color: #6C6D70;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-family: 'Work Sans', regular;
+        /* text-align: center; */
+        align-items: center;
+    }
+
+    .contact-align {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .form-edit {
+        width: 100%;
+        height: 1000px;
+    }
+
+    .form-txt {
+        display: none;
+    }
+
+    .footer {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .cont-002 {
+        display: none;
+    }
+
+    .contact-deal {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .faq00 {
+        width: 100%;
+    }
+
+    .faq-sub {
+        padding-bottom: 1px;
+    }
+
+    .pro {
+        border-top: 2px solid;
+    }
+
+    .blog-container {
+        padding: 1rem;
+    }
+
+    .blog-border {
+        border-right: 0;
+        border-bottom: 1px solid;
+    }
+
+    .navbar-nav .dropdown-menu {
+        position: absolute !important;
+    }
+
+    .depo {
+        height: 640px;
+    }
+
+    .reduce-icons {
+        display: flex;
+        text-align: center;
+        padding: 15px;
+        padding-top: 30px;
+    }
+
+    .sPoint {
+        font-size: 20px;
+        text-align: start;
+    }
+
+    .sPoint br {
+        display: none;
+    }
+
+    .d5 {
+
+        font-size: 20px;
+
+        color: #3E639C;
+
+        line-height: 10px;
+
+    }
+
+    .d9 {
+        font-size: 20px;
+    }
+
+    .func-sub {
+        font-size: 18px;
+    }
+
+
+    .d6 {
+
+        font-size: 15px;
+
+        color: #6C6D70;
+
+        font-family: 'Work Sans', regular;
+
+    }
+
+
+    .sol-items {
+        display: none;
+    }
+
+    .carousel-wow {
+
+        max-width: 100%;
+
+    }
+
+
+    .x1,
+    .x3 {
+
+        font-size: 50px;
+
+        font-weight: bold;
+
+        color: #F9AE41;
+
+    }
+
+
+    .x2 {
+
+        font-size: 40px;
+
+        text-decoration: underline;
+
+        text-decoration-color: #3565A8;
+
+        font-weight: bold;
+
+    }
+
+
+    .d1,
+    .d3 {
+
+        font-size: 50px;
+
+        font-weight: bold;
+
+        color: #F9AE41;
+
+    }
+
+
+    .d2 {
+
+        font-size: 40px;
+
+        text-decoration: underline;
+
+        text-decoration-color: #3565A8;
+
+        font-weight: bold;
+
+    }
+
+
+    .banner-icons {
+
+        display: none !important;
+
+    }
+
+
+    .banner-02 {
+
+        background: #3565A8 !important;
+
+    }
+
+
+    .banner-08 {
+
+        background: #F9AE41 !important;
+
+        text-align: center;
+
+    }
+
+
+    .ben-top1,
+    .ben-top2 {
+
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+
+    .call_calc {
+
+        display: flex;
+
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .reflex-cont {
+        text-align: center;
+    }
+
+    .modal-content {
+        width: 100% !important;
+        height: 983px !important;
+    }
+
+    .usinas-row {
+        flex-direction: column;
+    }
+
+    .sucesso .parc br {
+        display: none;
+    }
+
+    .modal-content iframe {
+        width: 100%;
+        height: 902px;
+    }
+
+
+    .txt_calc {
+
+
+        display: flex;
+
+        align-items: center;
+
+        text-align: center;
+
+    }
+
+    .sol-footer {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .video-container {
+
+        width: 90%;
+
+    }
+
+
+    .link,
+    .sol_1,
+    .sol_2 {
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        text-align: center;
+
+    }
+
+
+
+    .carousel-control-prev-icon:after {
+        content: '<';
+        font-size: 40px;
+        color: black;
+    }
+
+    .carousel-control-next-icon:after {
+        content: '>';
+        font-size: 40px;
+        color: black;
+    }
+
+    .pro-space {
+        justify-content: center;
+    }
+
+    .pro-2-txt {
+        align-items: center;
+    }
+
+    .link2,
+    .btn-cel {
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+
+    .reduce-icon2 {
+
+        display: flex;
+
+        flex-direction: column;
+
+        margin-top: 1px;
+
+    }
+
+    .card {
+        align-items: center !important;
+    }
+
+
+    .reduce2 {
+
+        text-align: center;
+
+    }
+
+
+    .benn {
+
+        width: 90%;
+
+        text-align: center;
+
+    }
+
+
+    .red1,
+    .red2,
+    .red3,
+    .red4 {
+
+        margin: 30px;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+    .ben-sim {
+        align-self: center;
+    }
+
+
+    .center-txt {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+
+    .beneficios {
+
+        text-align: center;
+
+    }
+
+
+    .faq-1 {
+
+        text-align: center;
+
+    }
+
+
+    .energia1 {
+
+        padding: 1rem;
+
+        padding-bottom: 25px;
+
+    }
+
+
+    .energia-text {
+
+        width: 90%;
+
+    }
+
+
+    .img-energia {
+
+        width: 340px !important;
+
+        margin: 10px;
+
+    }
+
+
+    .footer-top,
+    .footer-1 {
+
+        display: flex;
+
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 30px;
+
+        padding-bottom: 30px;
+
+    }
+
+
+    .parc {
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        text-align: justify;
+
+        font-size: 13px;
+
+
+    }
+
+
+    #parc-img {
+
+        width: 100% !important;
+
+        height: 100% !important;
+
+    }
+
+
+    .invest-image1 {
+
+        display: flex;
+
+        flex-direction: column;
+
+        text-align: center;
+
+        align-items: center !important;
+
+        gap: 30px;
+
+    }
+
+
+    .invest-image2 {
+
+        display: flex;
+
+        flex-direction: column-reverse;
+
+        text-align: center;
+
+        align-items: center !important;
+
+        gap: 30px;
+
+    }
+
+
+    .how-icons {
+
+        flex-direction: column;
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center !important;
+
+    }
+
+
+    .how-txt-1 {
+
+        margin-top: 0px !important;
+
+    }
+
+
+    .func-icon {
+
+        display: flex;
+
+        flex-direction: row;
+
+        padding: 1rem;
+
+    }
+
+    /*.project02{
+        border-top: 1px solid;
+    }*/
+
+    .func-works {
+
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+
+    .icon-4 {
+
+        display: none !important;
+
+    }
+
+
+    .intersction {
+
+        display: flex;
+
+        flex-direction: column;
+
+        margin-top: 30px;
+
+        flex-direction: column;
+
+        gap: 30px !important;
+
+        text-align: center;
+
+    }
+
+
+    .banner_text {
+
+        display: flex;
+
+        align-items: center;
+
+        text-align: center;
+
+        margin-left: inherit;
+
+    }
+
+
+    .project-title,
+    .project-subtitle {
+
+        font-size: 25px !important;
+
+    }
+
+
+    .project03 {
+
+        text-align: center;
+
+    }
+
+
+    .project-txt {
+
+        font-size: 15px !important;
+
+    }
+
+
+    .func-icon {
+
+        gap: 0px !important;
+
+    }
+
+
+    .inter-2 {
+
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+
+    .inter-2-txt {
+
+        display: flex;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+    }
+
+    .inter-1-txt {
+
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+
+    .func-icon-title {
+
+        text-align: center;
+        border-top: 2px solid;
+        padding: 1rem;
+        gap: 5px;
+        border-top: 2px solid;
+
+    }
+
+
+    .func-img-txt {
+
+        flex-direction: column;
+
+    }
+
+
+    .partners {
+
+        padding: 4rem;
+
+        max-width: 300px !important;
+
+    }
+
+
+    .func-txt {
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center !important;
+
+    }
+
+
+    .inter-txt-1 {
+
+        text-align: center;
+
+    }
+
+
+    .img-linha {
+
+        display: none !important;
+
+    }
+
+
+    .pro-2-title {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 30px;
+
+    }
+
+
+    .pro-2-imgs {
+
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+
+    .pro-2-img-1 {
+
+        display: flex;
+
+        flex-direction: column;
+
+        text-align: center;
+
+        margin-bottom: 30px;
+
+    }
+
+
+    .carousel-control-prev {
+        left: 27px !important;
+    }
+
+    .carousel-control-next-icon {
+        margin-right: -80px !important;
+    }
+
+
+    #carouselExampleControls {
+
+        max-width: 300px;
+
+    }
+
+
+    .p1,
+    .p2,
+    .p3,
+    .p4 {
+
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 15px;
+        width: 100%;
+        align-items: center;
+
+    }
+
+    #icon-pag-homem {
+        display: none;
+    }
+
+    .ben-title-1 {
+        font-size: 35px;
+        font-weight: 700;
+        padding: 10px;
+        color: #3566A9;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .ben-title {
+        font-size: 30px;
+        font-weight: 700;
+        padding: 10px;
+        color: #3566A9;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .ben-sub {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #55BC7B;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400 !important;
+    }
+
+    .sol_2 {
+        font-size: 35px;
+        color: #3166AB;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-bottom: 10px solid #55BB7B;
+        display: inline-block;
+    }
+
+    .sol_1 {
+        font-size: 35px;
+        color: #3166AB;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    .invest {
+        text-align: start;
+        font-size: 12px;
+    }
+
+    .btn-calc3 {
+        font-size: 15px;
+    }
+
+    .d4 {
+        font-weight: 700;
+        letter-spacing: initial;
+        font-size: 20px;
+        font-family: 'Work Sans', sans-serif;
+        line-height: 22px;
+    }
+
+    .invest-sub {
+        font-size: 14px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 500;
+        color: black;
+    }
+
+    .acompanhamento {
+        width: 100% !important;
+        padding: 1px;
+        border-bottom: 2px solid;
+        padding-top: 2rem;
+    }
+
+    .style-faq {
+        padding-top: 0;
+    }
+
+    .row {
+        gap: 10px;
+    }
+
+    .pro-2-text {
+        font-size: 14px;
+    }
+
+    .parceiros {
+        text-align: start;
+        font-size: 12px;
+    }
+
+    .func-cont {
+        text-align: center;
+    }
+
+    .sPoint-1 {
+        padding-top: 0px;
+        text-align: start;
+        font-size: 17px;
+        line-height: 25px;
+        padding-left: 20px;
+    }
+
+    .icons-realization {
+        line-height: 10px;
+    }
+
+    .padding-left {
+        margin-bottom: 0 !important;
+    }
+
+    .energia-txt-1 {
+        padding-top: 0;
+    }
+
+    .realization {
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 30px;
+
+    }
+
+
+    .sol-img {
+
+        display: none !important;
+
+    }
+
+
+    .sol-img-mobile {
+
+        display: flex !important;
+
+        gap: 15px;
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+
+    .sol-mobile {
+
+        width: 300px;
+
+    }
+
+    .energia-sub {
+        font-size: 35px !important;
+    }
+
+    .energia-title {
+        font-size: 30px
+    }
+
+    .historia {
+        padding-top: 1px;
+        gap: 0;
+    }
+
+    .title-afiliados {
+        font-size: 24px !important;
+        font-weight: 400 !important;
+        text-align: left !important;
+        padding-right: 20px !important;
+    }
+
+    .title-afiliados .mobile-conversion {
+        display: block !important;
+    }
+
+    .mobile-height {
+        padding-block: 0px !important;
+        padding: 10px 25px !important;
+
+        height: 263px !important;
+    }
+
+    .text-1,
+    .text-2 {
+        text-align: left !important;
+    }
+
+    .mobile-version-padding {
+        padding: 0px !important;
+    }
+
+    .adding-padding {
+        padding: 28px !important;
+    }
+
+    .btn-wrap-left.center {
+        text-align: center !important;
+    }
+
+}
