@@ -23,74 +23,82 @@
               34.006-053 Nova Lima - Minas Gerais, MG</a>
       </div>
   </footer>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="<?php echo get_template_directory_uri() ?>/res/js/jquery.696e1f44.js"></script>
-  <script>
-      var _0x3c16cb = _0x1501;
-      (function(_0x37ac6b, _0x4dd047) {
-          var _0x5e46bc = _0x1501,
-              _0x3056f0 = _0x37ac6b();
-          while (!![]) {
-              try {
-                  var _0xd9edb3 =
-                      (-parseInt(_0x5e46bc(0x128)) / 0x1) *
-                      (-parseInt(_0x5e46bc(0x131)) / 0x2) +
-                      parseInt(_0x5e46bc(0x12b)) / 0x3 +
-                      (parseInt(_0x5e46bc(0x126)) / 0x4) *
-                      (parseInt(_0x5e46bc(0x12e)) / 0x5) +
-                      (-parseInt(_0x5e46bc(0x130)) / 0x6) *
-                      (-parseInt(_0x5e46bc(0x132)) / 0x7) +
-                      (-parseInt(_0x5e46bc(0x12d)) / 0x8) *
-                      (parseInt(_0x5e46bc(0x12a)) / 0x9) +
-                      parseInt(_0x5e46bc(0x127)) / 0xa +
-                      (parseInt(_0x5e46bc(0x12f)) / 0xb) *
-                      (-parseInt(_0x5e46bc(0x12c)) / 0xc);
-                  if (_0xd9edb3 === _0x4dd047) break;
-                  else _0x3056f0["push"](_0x3056f0["shift"]());
-              } catch (_0x2b4c30) {
-                  _0x3056f0["push"](_0x3056f0["shift"]());
-              }
-          }
-      })(_0x4098, 0x44cee),
-      AOS[_0x3c16cb(0x129)]();
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/res/js/jquery.696e1f44.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/4.0.9/jquery.inputmask.bundle.min.js" referrerpolicy="no-referrer"></script>
 
-      function _0x1501(_0x55917d, _0x7af2d2) {
-          var _0x40987f = _0x4098();
-          return (
-              (_0x1501 = function(_0x150171, _0x2593ce) {
-                  _0x150171 = _0x150171 - 0x126;
-                  var _0xd9bbaf = _0x40987f[_0x150171];
-                  return _0xd9bbaf;
-              }),
-              _0x1501(_0x55917d, _0x7af2d2)
-          );
-      }
+    <script>
+            $(document).ready(function () {
+            // Máscara para telefone
+                $("#telefone").inputmask("(99) 99999-9999");
+            });
+        </script>
+            <script>
+                var _0x3c16cb = _0x1501;
+                (function(_0x37ac6b, _0x4dd047) {
+                    var _0x5e46bc = _0x1501,
+                        _0x3056f0 = _0x37ac6b();
+                    while (!![]) {
+                        try {
+                            var _0xd9edb3 =
+                                (-parseInt(_0x5e46bc(0x128)) / 0x1) *
+                                (-parseInt(_0x5e46bc(0x131)) / 0x2) +
+                                parseInt(_0x5e46bc(0x12b)) / 0x3 +
+                                (parseInt(_0x5e46bc(0x126)) / 0x4) *
+                                (parseInt(_0x5e46bc(0x12e)) / 0x5) +
+                                (-parseInt(_0x5e46bc(0x130)) / 0x6) *
+                                (-parseInt(_0x5e46bc(0x132)) / 0x7) +
+                                (-parseInt(_0x5e46bc(0x12d)) / 0x8) *
+                                (parseInt(_0x5e46bc(0x12a)) / 0x9) +
+                                parseInt(_0x5e46bc(0x127)) / 0xa +
+                                (parseInt(_0x5e46bc(0x12f)) / 0xb) *
+                                (-parseInt(_0x5e46bc(0x12c)) / 0xc);
+                            if (_0xd9edb3 === _0x4dd047) break;
+                            else _0x3056f0["push"](_0x3056f0["shift"]());
+                        } catch (_0x2b4c30) {
+                            _0x3056f0["push"](_0x3056f0["shift"]());
+                        }
+                    }
+                })(_0x4098, 0x44cee),
+                AOS[_0x3c16cb(0x129)]();
 
-      function _0x4098() {
-          var _0x5b7651 = [
-              "874065ulHMpb",
-              "47688IQWyDg",
-              "11512CTFzvL",
-              "269965neMMll",
-              "550lZUczP",
-              "158988ntqouG",
-              "27046FaMIwB",
-              "21IelPAc",
-              "12wgxJdd",
-              "3155220bZIKui",
-              "1wxLccK",
-              "init",
-              "2385xddbbq",
-          ];
-          _0x4098 = function() {
-              return _0x5b7651;
-          };
-          return _0x4098();
-      }
-      
-  </script>
-  <?php wp_footer(); ?>
-<script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/ee05f122-a956-41fc-a4c1-52321b4605b8-loader.js" ></script>
+                function _0x1501(_0x55917d, _0x7af2d2) {
+                    var _0x40987f = _0x4098();
+                    return (
+                        (_0x1501 = function(_0x150171, _0x2593ce) {
+                            _0x150171 = _0x150171 - 0x126;
+                            var _0xd9bbaf = _0x40987f[_0x150171];
+                            return _0xd9bbaf;
+                        }),
+                        _0x1501(_0x55917d, _0x7af2d2)
+                    );
+                }
+
+                function _0x4098() {
+                    var _0x5b7651 = [
+                        "874065ulHMpb",
+                        "47688IQWyDg",
+                        "11512CTFzvL",
+                        "269965neMMll",
+                        "550lZUczP",
+                        "158988ntqouG",
+                        "27046FaMIwB",
+                        "21IelPAc",
+                        "12wgxJdd",
+                        "3155220bZIKui",
+                        "1wxLccK",
+                        "init",
+                        "2385xddbbq",
+                    ];
+                    _0x4098 = function() {
+                        return _0x5b7651;
+                    };
+                    return _0x4098();
+                }
+                
+            </script>
+    <?php wp_footer(); ?>
+    <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/5ad7cffc-58db-4505-966d-6efeae926a3c-loader.js" ></script> 
   </body>
 
   </html>

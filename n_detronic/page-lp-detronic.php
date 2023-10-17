@@ -31,11 +31,11 @@ get_header('assinatura');
                     Simule e descubra quanto você pode economizar:
                 </h2>
                 <p class="default__desc">Insira o valor atual da sua conta de luz</p>
-                <form class="simulador__form">
+                <form class="simulador__form" onsubmit="return false;">
                     <div class="simulador__input">
                         <label for="calculo">
                             R$
-                            <input type="text" id="numberInput" placeholder="130,00" value="130,00" />
+                            <input type="text" id="numberInput" placeholder="130,00" required/>
                         </label>
                     </div>
                     <button type="submit" id="calculando">→</button>
@@ -92,16 +92,16 @@ get_header('assinatura');
                         <label><img src="<?php echo get_template_directory_uri() ?>/res/img/assets/person.svg" alt /> Nome</label>
                     </div>
                     <div class="input_wrap">
-                        <input name="telefone"type="tel" required />
+                        <input name="telefone"type="tel" id="telefone" required />
                         <label><img src="<?php echo get_template_directory_uri() ?>/res/img/assets/phone.svg" alt /> Telefone</label>
                     </div>
                     <div class="input_wrap">
                         <input name="email" type="email" required />
                         <label><img src="<?php echo get_template_directory_uri() ?>/res/img/assets/mail.svg" alt /> E-mail</label>
                     </div>
-                    <input type="hidden" name="tipoConta" id="tipoContaHidden">
-                    <input type="hidden" name="valorConta" id="valorContaHidden">
-					<input type="hidden" name="faixaDeValor" id="faixaValor">
+                    <input type="hidden" name="tipo-da-conta" id="tipo-da-conta" value="residencial">
+                    <input type="hidden" name="valor-da-conta" id="valor-da-conta">
+					<input type="hidden" name="faixa-de-valor" id="faixa-de-valor" >
 
                 </div>
                 <button type="submit" class="button">enviar formulário</button>
