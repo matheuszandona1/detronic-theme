@@ -205,7 +205,7 @@ get_header('assinatura');
             </div>
             <div class="contas__side">
                 <p class="default__title">Até</p>
-                <p class="contas__bigger-text">16%</p>
+                <p class="contas__bigger-text">15%</p>
                 <p class="default__title">DE ECONOMIA</p>
                 <p class="contas__text full">GARANTIDA</p>
             </div>
