@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/res/css/styles.305e0770.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/res/css/styles.css" />
     <meta name="description" content=" Página de Assinatura" />
     <meta property="og:title" content=" Página de Assinatura" />
     <meta property="og:description" content="INGAGE-Description" />

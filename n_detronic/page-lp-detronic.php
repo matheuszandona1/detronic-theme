@@ -35,7 +35,7 @@ get_header('assinatura');
                     <div class="simulador__input">
                         <label for="calculo">
                             R$
-                            <input type="text" id="numberInput" placeholder="130,00" required/>
+                            <input type="number" id="numberInput" placeholder="130,00" required min="130"/>
                         </label>
                     </div>
                     <button type="submit" id="calculando">→</button>

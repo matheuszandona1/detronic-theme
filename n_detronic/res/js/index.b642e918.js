@@ -127,11 +127,6 @@ $(document).ready(function () {
     }
   }
 
-  $("#form-open").on("click", function (e) {
-    $(this).parent().parent().parent().find(".contact__container");
-    $(".contact__container").slideToggle("fast").addClass("d-flex");
-  });
-
   $(".close-btn").on("click", function (e) {
     $(this).parent().addClass("d-none");
   });
@@ -164,3 +159,22 @@ $(document).ready(function () {
 
 localStorage.removeItem("valorFinalDescontoMensalMed");
 localStorage.removeItem("valorFinalDescontoMensalMin");
+
+var calculandoClicked = false; // flag para verificar se o botão #calculando foi clicado
+
+$("#calculando").on("click", function () {
+  calculandoClicked = true; // seta a flag como verdadeira
+});
+
+$("#form-open").on("click", function (e) {
+  if (!calculandoClicked) {
+    // Se a flag for false, simplesmente retorna sem executar qualquer ação
+    return;
+  }
+
+  $(".contact__container").slideToggle("fast").addClass("d-flex");
+});
+
+$(".close-btn").on("click", function (e) {
+  $(this).parent().addClass("d-none");
+});
