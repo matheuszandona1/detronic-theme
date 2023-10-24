@@ -4,7 +4,7 @@ show_admin_bar(false);
 
 function enqueue_custom_scripts() {
     // Enqueue the script
-    wp_enqueue_script('indexjs', get_template_directory_uri() . '/res/js/index.b642e918.js', array('jquery'), '1.0.6', true);
+    wp_enqueue_script('indexjs', get_template_directory_uri() . '/res/js/index.b642e918.js', array('jquery'), '1.0.7', true);
 }
 
 add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
